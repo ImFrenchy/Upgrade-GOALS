@@ -7,6 +7,7 @@
 body { font-family: Arial; text-align: center; background: #0f172a; color: white; }
 input, button { padding: 10px; margin: 10px; font-size: 16px; }
 .result { font-size: 28px; margin-top: 20px; font-weight: bold; }
+.note { font-size: 14px; color: #facc15; margin-top: -5px; margin-bottom: 10px; }
 </style>
 </head>
 <body>
@@ -14,7 +15,9 @@ input, button { padding: 10px; margin: 10px; font-size: 16px; }
 <h1>GOALS Upgrade Calculator</h1>
 
 <input id="rating" type="number" placeholder="Rating (40-98)">
+<br>
 <input id="upgrades" type="number" placeholder="Upgrade (1-8)">
+<div class="note">Please, indicate the total number of upgrades, not just the available upgrades.</div>
 <br>
 <button onclick="calc()">Check</button>
 
